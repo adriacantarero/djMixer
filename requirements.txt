@@ -1,0 +1,20 @@
+# Python 3.9.x (BeatNet / madmom need the older numpy pinned below)
+BeatNet==1.1.3
+librosa==0.10.1
+numpy==1.20.3
+scipy==1.10.1
+numba==0.54.1
+llvmlite==0.37.0
+scikit-learn
+pydub
+pyrubberband
+soundfile==0.13.1
+audioread==3.0.1
+soxr==1.0.0
+matplotlib
+# beat-tracking benchmark (test/beat_tracking.ipynb)
+mir_eval==0.8.2
+madmom==0.16.1
+jams
+yt-dlp==2025.9.26
+# system dependencies (not pip): ffmpeg, rubberband-cli
